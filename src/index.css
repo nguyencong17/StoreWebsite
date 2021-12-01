@@ -1,0 +1,58 @@
+:root{
+  /* Color */
+  --color-main: #f87a61;
+  /* Font */
+  --font-main:'Poppins', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+}
+html{
+  min-width: 1400px;
+}
+.btn {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  padding: 12px 50px;
+  background-color: #373737;
+  color: #fc846b;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-main);
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-rouded {
+  border-radius: 60px;
+}
+.btn-shopnow {
+  width: 220px;
+  height: 55px;
+  font-size: 20px;
+  margin-top: 20px;
+  transition: transform 0.5s;
+}
+.btn-shopnow:hover {
+  background-color: #fc846b;
+  color: white;
+  transform: scale(1.2);
+}
+a.active-nav{
+  color: #fc846b !important;
+  border-bottom: 1px solid #f87a61;
+}
+hr {
+  width: 90px;
+  border: 1px solid #fc846b;
+  background-color: #fc846b;
+}
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4;
+}
+
+code {
+  /* font-family: var(--font-main); */
+}

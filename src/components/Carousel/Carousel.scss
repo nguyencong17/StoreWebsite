@@ -1,0 +1,12 @@
+.carousel-control-prev, .carousel-control-next{
+    width: 5%!important;
+    &>span{
+        color: black!important;
+    }
+}
+.carousel-control-prev span{
+    background-image: url(https://icon-library.com/images/previous-icon/previous-icon-1.jpg);
+}
+.carousel-control-next span{
+    background-image: url(https://uxwing.com/wp-content/themes/uxwing/download/02-arrow-direction/next.png);
+}

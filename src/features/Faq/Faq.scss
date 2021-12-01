@@ -1,0 +1,45 @@
+.btn-question{
+    margin-top: -16px;
+    background-color: #fff !important;
+    border: 1px solid rgb(189, 186, 186) !important;
+    text-transform: initial !important;
+    font-size: 15px;
+    font-family: var(--font-secondary) !important;
+    color: #333 !important;
+    border-radius: 0;
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: left !important;
+    &:before{
+        content: "\f107";
+        font-family: 'Font Awesome 5 Free';
+        color: #333;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        color: var(--color-main);
+    }
+    &:hover{
+        color: #fc846b !important;
+    }
+    &:focus{
+        box-shadow: none;
+    }
+}
+.answer{
+    background-color: #f4f4f4;
+    padding: 15px 62px;
+    margin: -16px 0 0;
+    border-radius: 0;
+    border: 1px solid #f4f4f4;
+    font-size: 15px;
+    font-family: var(--font-main);
+    color: #333;
+    line-height: 1.7;
+}
+strong{
+    margin-bottom: 5px;
+}
